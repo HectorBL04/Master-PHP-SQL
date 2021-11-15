@@ -1,0 +1,9 @@
+language = "bash"
+run = ""
+
+replit.nix
+{ pkgs }: {
+	deps = [
+		pkgs.php74
+	];
+}
